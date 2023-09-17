@@ -12,8 +12,8 @@ After cloning this project to your local machine, you will need to install a com
 
 In a Debian based linux environment, you can install the gcc compiler using the command:
 
-`sudo apt update
- sudo apt install gcc`
+`sudo apt update`
+`sudo apt install gcc`
 
 
 
