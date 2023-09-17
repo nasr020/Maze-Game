@@ -12,8 +12,30 @@ After cloning this project to your local machine, you will need to install a com
 
 In a Debian based linux environment, you can install the gcc compiler using the command:
 
-`sudo apt update`
-`sudo apt install gcc`
+```
+sudo apt update
+sudo apt install gcc
+```
+
+After completion of the installation, you can verify that gcc is installed by running:
+
+```
+gcc --version
+```
+
+Now, you can install the ncurses library using the command:
+
+```
+sudo apt-get install libncurses5-dev
+```
+
+Now that you are done with all the required installations, you can compile the main file by running the following command:
+
+```
+gcc main.c -o main -lncurses
+```
+
+
 
 
 
