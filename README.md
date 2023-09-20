@@ -32,9 +32,7 @@ sudo apt-get install libncurses5-dev
 Now that you are done with all the required installations, you can compile the main file by running the following command:
 
 ```
-gcc main.c -o main -lncurses
-
-## 
+gcc main.c -o main -lncurses 
 ```
 
 ## Depth First Search algorithm for the generation of the maze
