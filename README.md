@@ -37,7 +37,7 @@ gcc main.c -o main -lncurses
 
 ## Depth First Search algorithm for the generation of the maze
 
-To randomly generate a maze and ensure that there is a path between the starting point and the goal, I used the Depth First Search algorithm. The function of this algorithm in my code starts from a point (x, y), and if this point has already been visited, the function does nothing. However, if it hasn't been visited, it calculates the number of unvisited neighboring cells (cells that can be reached by moving 2 steps up, down, left, or right). As long as this number is greater than 0, the function simultaneously remains on the current cell (x, y) and executes itself for one of the previously mentioned cells (it's a recursive function). By using this program to generate the maze, we ensure that there is a path between any two cells, especially between the starting point (width-2, length-2) and the goal (1,
+To randomly generate a maze and ensure that there is a path between the starting point and the goal, I used the Depth First Search algorithm. The function of this algorithm in my code starts from a point (x, y), and if this point has already been visited, the function does nothing. However, if it hasn't been visited, it calculates the number of unvisited neighboring cells (cells that can be reached by moving 2 steps up, down, left, or right). As long as this number is greater than 0, the function simultaneously remains on the current cell (x, y) and executes itself for one of the previously mentioned cells (it's a recursive function). By using this program to generate the maze, we ensure that there is a path between any two cells, especially between the starting point (width-2, length-2) and the goal (1,1).
 
 
 
