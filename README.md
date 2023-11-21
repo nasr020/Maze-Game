@@ -8,7 +8,7 @@ For the graphical aspect, I used the external library **ncurses**, which allows 
 
 ## Installation of requirements
 
-After cloning this project to your local machine, you will need to install a compiler and the ncurses library to launch and play the game.
+After cloning this project to your local machine, you will need to install a compiler and the ncurses library to launch and play the game
 
 In a Debian based linux environment, you can install the gcc compiler using the command:
 
