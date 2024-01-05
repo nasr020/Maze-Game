@@ -146,5 +146,3 @@ void se_deplacer (struct coordonnees mouvement){
   else{beep();}
   move (0, 0);
 }
-
-
